@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #7295ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #71aef4;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .skills ul, .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li, .projects li {
+      background: #e1e8f0;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    form input, form textarea {
+      margin: 8px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #4a59e2;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #357abd;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Felix Y Lingam</h1>
+    <img src="profile.webp" alt="Profile Picture">
+    <p>Hello! I am a passionate learner and aspiring developer. Welcome to my portfolio.</p>
+  </header>
+
+  <section class="education">
+    <h2>Education</h2>
+    <p><strong>Bachelor of Engineering in Computer Science</strong><br>
+       Jain College Of Engineering Belgaum, 2025 - Present</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python ,C,C++</li>
+      <li>Database Management</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website</strong> - A personal portfolio using HTML and CSS.</li>
+      <li><strong>Todo App</strong> - A simple task management app with JavaScript.</li>
+      <li><strong>Amazon Clone Front end</strong> - Replicates the UI of Amazon</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Felix Y Lingam | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
